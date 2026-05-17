@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flash Cards</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h2>Flash Cards</h2>
+
+    <div class="progress">
+      <div id="progress-bar"></div>
+    </div>
+    <p id="progress-text">1 of 5</p>
+
+    <div class="card">
+      <p id="card-text"></p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="prevCard()">Previous</button>
+      <button onclick="toggleAnswer()">Show Answer</button>
+      <button onclick="nextCard()">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
